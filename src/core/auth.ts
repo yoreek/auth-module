@@ -439,10 +439,10 @@ export class Auth {
         }
         window.location.replace(to)
       } else {
-        this.ctx.redirect(to, this.ctx.query)
+        this.ctx.redirect(to)
       }
     } else {
-      this.ctx.redirect(to, this.ctx.query)
+      this.ctx.redirect(to)
     }
   }
 
